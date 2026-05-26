@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pnc-segundo-parcial--00183223
+
+  datasource:
+    url: ${DB_URL}
+    password: ${DB_PASSWORD}
+    username: ${DB_USER}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
